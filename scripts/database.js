@@ -7,6 +7,8 @@ const database = {
       bio: "Queen Bey's biggest, and hardest working, fan",
     },
     { id: 3, name: "Theo", bio: "I've got Bey's back" },
+    { id: 4, name: "Kori", bio: "Bey is my life"},
+    { id: 5, name: "Kala", bio: "It's Bey's way or the highway"}
   ],
   articles: [
     {
