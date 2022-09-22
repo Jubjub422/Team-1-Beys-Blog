@@ -71,7 +71,3 @@ export const getCategories = () => {
   return database.categories.map((category) => ({ ...category }));
 };
 
-
-export const getArticles = () => {
-  return database.articles.map((article) => ({ ...article }));
-};
