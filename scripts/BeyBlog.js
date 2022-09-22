@@ -1,7 +1,10 @@
+import { authorHTML } from "./authors.js";
+
 export const BeyBlog = () => {
   return `
         <article class="authors column">
             <h2>Authors</h2>
+            ${authorHTML()}
         </article>
         <article class="articles column">
             <h2>Articles</h2>
